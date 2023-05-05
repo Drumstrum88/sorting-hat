@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+body {
+  font-family: 'Harry P', sans-serif;
+  background-image: url(https://i.pinimg.com/474x/16/52/7f/16527fbfcf227602ca5914619aa74268.jpg);
+  margin: auto;
+  justify-content: space-around;
+  background-size: cover; 
+  background-repeat: no-repeat;
+ 
+}
+
+#master {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-image: url(https://i.pinimg.com/474x/f1/11/d1/f111d102690326c3a2ec7cf0a8769633.jpg);
+  
+}
+
+.topnav {
+  align-self: flex-start;
+  display: flex;
+  margin-right: auto; 
+   margin-left: auto; 
+  justify-content: center;
+  color: lightgray;
+ 
+}
+
+#motto {
+  align-self: flex-end;
+  display: flex;
+  margin-right: auto; 
+  margin-left: auto; 
+  justify-content: center;
+  color:lightgray;
+  font-family: brush script mt;
+  font-size: large;
+ 
+ 
+}
+
+#app1 {
+  
+  margin: 50px; 
+  float: left;
+  padding: 10px; 
+  background-color: black;
+  border-style: inset;
+  border: 4px;
+  border-radius: 15px;
+ 
+  
+
+}
+
+#app2 {
+  
+  margin: 50px; 
+  float: right;
+  padding: 10px; background-color:black;
+  border-style: inset;
+  border: 2px; 
+  border-radius: 15px;
+ 
+  
+}
+
+
+.card {
+  display: space-around;
+   margin: 10px; 
+  background-image: url(https://i.pinimg.com/474x/48/6c/c0/486cc02eba94124e6c1cb599fa284b3c.jpg);
+  background-size: cover;
+  border-style: inset;
+  border: 4px; 
+  border-radius: 15px;
+  padding: 10px; 
+  font-family: brush script mt;
+  font-size:xx-large;
+  font-weight: 200;
+  max-width: 400px;
+  max-width: 400px;
+  
+}
+
+.buttons {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-around;
+  margin: 15px;
+  padding: 5px;
+  background-color: lightgray;
+  border-style: inset;
+  border: 4px;
+  border-radius: 10px;
+ 
+}
+
+#gryffindor {
+ color: azure;
+ background-color: maroon;
+ border-style: solid;
+  border: 10px;
+  border-radius: 10px;
+  width: 175px;
+  font-family: brush script mt;
+  font-size: large;
+  font-weight: 200;
+}
+
+#hufflepuff {
+  color: azure;
+  background-color: goldenrod;
+  border-style: solid;
+  border: 10px;
+  border-radius: 10px;
+  width: 175px;
+  font-family: brush script mt;
+  font-size: large;
+  font-weight: 200;
+}
+
+#ravenclaw {
+  color: azure;
+  background-color: navy;
+  border-style: solid;
+  border: 10px;
+  border-radius: 10px;
+  width: 175px;
+  font-family: brush script mt;
+  font-size: large;
+  font-weight: 200;
+}
+
+#slytherin {
+  color: azure;
+  background-color: green;
+  border-style: solid;
+  border: 10px;
+  border-radius: 10px;
+  width: 175px;
+  font-family: brush script mt;
+  font-size: large;
+  font-weight: 200;
+}
+
+#menu {
+  color: azure;
+  background-color: #483c;
+  border-style: solid;
+  border: 10px;
+  border-radius: 10px;
+  width: 175px;
+  font-family: brush script mt;
+  font-size: x-large;
+  font-weight: 200;
+  margin-left: 140px;
+  width: 250px;
+  height: 75px;
+  
+}
+
+.daddy {
+  /* border: 3px solid black; */
+  padding: 20px;
+  margin-top: 40px;
+  
+}
+
+.btn-danger {
+  color: azure;
+  background-color: maroon;
+  border-style: instet;
+  border: 10px;
+  border-radius: 50px;
+  border-color: black;
+}
+
+.modal-title {
+  margin-left: auto;
+  font-family: brush script mt;
+  font-size: large;
+  color: azure;
+}
+
+.modal-header, .modal-footer {
+  background-color: maroon;
+  color: azure;
+}
+
+.modal {
+  background-image: url(https://i.pinimg.com/474x/16/52/7f/16527fbfcf227602ca5914619aa74268.jpg);
+}

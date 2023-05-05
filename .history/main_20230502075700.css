@@ -1,0 +1,15 @@
+body {
+  background-color: aqua;
+  margin: auto;
+  justify-content: space-around;
+}
+
+#app1 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px;
+  padding: 20px;
+  background-color:g
+
+}

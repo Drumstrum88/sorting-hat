@@ -1,0 +1,128 @@
+body {
+
+  background-color: lightgrey;
+  margin: auto;
+  justify-content: space-around;
+}
+
+#master {
+  position: relative;
+}
+
+.topnav {
+  posi
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+
+#motto {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+ 
+}
+
+#app1 {
+  
+  margin: 50px; 
+  float: left;
+  padding: 20px; 
+  background-color:goldenrod;
+  border-style: inset;
+  border: 4px;
+  border-radius: 15px;
+  
+
+}
+
+#app2 {
+  
+  margin: 50px; 
+  float: right;
+  padding: 20px; background-color:black;
+  border-style: inset;
+  border: 2px; 
+  border-radius: 15px;
+  
+}
+
+
+
+
+
+
+.card {
+  display: space-around;
+  margin: 10px;
+  background-color: azure;
+  border-style: inset;
+  border: 4px;
+  border-radius: 15px;
+}
+
+.buttons {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-around;
+  margin: 10px;
+  background-color: azure;
+  border-style: inset;
+  border: 4px;
+  border-radius: 15px;
+}
+
+#gryffindor {
+ color: azure;
+ background-color: maroon;
+ border-style: solid;
+  border: 10px;
+  border-radius: 10px;
+  width: 175px;
+}
+
+#hufflepuff {
+  color: azure;
+  background-color: goldenrod;
+  border-style: solid;
+  border: 10px;
+  border-radius: 10px;
+  width: 175px;
+}
+
+#ravenclaw {
+  color: azure;
+  background-color: navy;
+  border-style: solid;
+  border: 10px;
+  border-radius: 10px;
+  width: 175px;
+}
+
+#slytherin {
+  color: azure;
+  background-color: green;
+  border-style: solid;
+  border: 10px;
+  border-radius: 10px;
+  width: 175px;
+}
+
+#menu {
+  color: azure;
+  background-color: black;
+  border-style: solid;
+  border: 10px;
+  border-radius: 10px;
+  width: 175px;
+  
+}
+
+.daddy {
+  /* border: 3px solid black; */
+  padding: 20px;
+  margin-top: 40px;
+}

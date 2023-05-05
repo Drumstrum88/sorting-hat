@@ -1,0 +1,8 @@
+body {
+  background-color: aqua;
+}
+
+#students {
+  display: flex;
+  margin: 30px;
+}
