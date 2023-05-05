@@ -114,40 +114,39 @@ const students = [
     }
     return houseArray
   }
-  const modal = new bootstrap.Modal(document.getElementById('myModal'))
-  const form = document.querySelector('.form'); 
- 
 
-  const addStudent = (e) => { 
+  const form = document.querySelector('.form');
+
+  const addStudent = (e) => {
     e.preventDefault();
     const nameInput = document.querySelector('#name')
 
-    const name = nameInput;
-     
+    const modal = new bootstrap.Modal(document.getElementById('myModal')) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
         
+        const name = document.querySelector('#name')
         
+        }
 
-    if (!name.value) {
+    if (name === "") {
       alert("Merlin's Beard! You must enter a name!")
       return;
-    }
-    
+    };
 
     const newStudent = {
       id: students.length + 1,
-      name: name.value,
+      name: document.querySelector('#name').value,
       house: hogwartsHouses[randoHouse].houseName
    }
-    
+   
     cardsOnDom(students);
 
     students.push(newStudent);
     cardsOnDom(students);
     form.reset();
-    modal.hide();
-  };
-  form.addEventListener('submit', (e) => {
-    e.preventDefault(); });
+  }
+
     form.addEventListener('submit', addStudent);
 
  
@@ -157,6 +156,8 @@ const students = [
   const hufBtn = document.querySelector('#hufflepuff');
   const ravBtn = document.querySelector('#ravenclaw');
   const slyBtn = document.querySelector('#slytherin');
+  const form = document.querySelector('.form');
+
 
 
    gryBtn.addEventListener('click', () => {
@@ -223,7 +224,6 @@ const students = [
     for (const deathEater of array) {
       domString += `<container id="jerks"> <div class="card" style="width: 18rem;">
       <div class="card-body" id="deathEaterCard">
-      <h3 id='wanted'>Wanted:</h3>
         <h5 class="card-title">${deathEater.name}</h5>
         <h6>Death Eater</h6>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAzF3RS9qLyDUNiR2Atof4fnWeY0X_8r-Qiw&usqp=CAU">

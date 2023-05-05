@@ -131,7 +131,8 @@ const students = [
       alert("Merlin's Beard! You must enter a name!")
       return;
     }
-    
+    form.addEventListener('submit', (e) => {
+      e.preventDefault(); 
 
     const newStudent = {
       id: students.length + 1,
@@ -145,9 +146,8 @@ const students = [
     cardsOnDom(students);
     form.reset();
     modal.hide();
-  };
-  form.addEventListener('submit', (e) => {
-    e.preventDefault(); });
+  })};
+
     form.addEventListener('submit', addStudent);
 
  

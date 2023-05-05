@@ -78,6 +78,7 @@ body {
   border-radius: 15px;
   padding: 10px; 
   font-family: brush script mt;
+  font-size:xx-large;
   font-weight: 200;
   max-width: 400px;
   max-width: 400px;
@@ -209,6 +210,5 @@ body {
 }
 
 #wanted {
-  margin-left: 85px;
-  font-size: xx-large;
+  
 }

@@ -127,7 +127,7 @@ const students = [
         
         
 
-    if (!name.value) {
+    if (!name) {
       alert("Merlin's Beard! You must enter a name!")
       return;
     }

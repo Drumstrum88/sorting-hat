@@ -122,7 +122,7 @@ const students = [
     e.preventDefault();
     const nameInput = document.querySelector('#name')
 
-    const name = nameInput;
+    const name = nameInput.value;
      
         
         
@@ -131,7 +131,6 @@ const students = [
       alert("Merlin's Beard! You must enter a name!")
       return;
     }
-    
 
     const newStudent = {
       id: students.length + 1,
@@ -145,9 +144,8 @@ const students = [
     cardsOnDom(students);
     form.reset();
     modal.hide();
-  };
-  form.addEventListener('submit', (e) => {
-    e.preventDefault(); });
+  })};
+
     form.addEventListener('submit', addStudent);
 
  
