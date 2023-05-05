@@ -1,0 +1,23 @@
+body {
+  background-color: aqua;
+}
+
+#students {
+  display: flex;
+  margin: 30px;
+  padding: 15px;
+  flex-wrap: wrap;
+  
+}
+
+#death-eaters {
+  display: flex;
+  margin: 30px;
+  padding: 15px;
+  flex-wrap: wrap;
+  
+}
+
+#deathEaterCard {
+  background-color
+}
