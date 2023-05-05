@@ -145,9 +145,8 @@ const students = [
     cardsOnDom(students);
     form.reset();
     modal.hide();
-  };
-  form.addEventListener('submit', (e) => {
-    e.preventDefault(); });
+  });
+
     form.addEventListener('submit', addStudent);
 
  

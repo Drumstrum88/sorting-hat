@@ -127,7 +127,7 @@ const students = [
         
         
 
-    if (!name.value) {
+    if (!name) {
       alert("Merlin's Beard! You must enter a name!")
       return;
     }
@@ -145,9 +145,9 @@ const students = [
     cardsOnDom(students);
     form.reset();
     modal.hide();
-  };
+  });
   form.addEventListener('submit', (e) => {
-    e.preventDefault(); });
+    e.preventDefault(); 
     form.addEventListener('submit', addStudent);
 
  

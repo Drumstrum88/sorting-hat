@@ -114,24 +114,25 @@ const students = [
     }
     return houseArray
   }
-  const modal = new bootstrap.Modal(document.getElementById('myModal'))
+
   const form = document.querySelector('.form'); 
- 
+  const modal = new bootstrap.Modal(document.getElementById('myModal'))
 
-  const addStudent = (e) => { 
+  const addStudent = (e) => {
     e.preventDefault();
-    const nameInput = document.querySelector('#name')
+    const name = document.querySelector('#name')
 
-    const name = nameInput;
-     
+    
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
         
+        const name = document.querySelector('#name')
         
 
     if (!name.value) {
       alert("Merlin's Beard! You must enter a name!")
       return;
     }
-    
 
     const newStudent = {
       id: students.length + 1,
@@ -145,9 +146,8 @@ const students = [
     cardsOnDom(students);
     form.reset();
     modal.hide();
-  };
-  form.addEventListener('submit', (e) => {
-    e.preventDefault(); });
+  })};
+
     form.addEventListener('submit', addStudent);
 
  

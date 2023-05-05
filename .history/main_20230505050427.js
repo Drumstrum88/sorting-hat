@@ -114,40 +114,48 @@ const students = [
     }
     return houseArray
   }
-  const modal = new bootstrap.Modal(document.getElementById('myModal'))
-  const form = document.querySelector('.form'); 
- 
 
-  const addStudent = (e) => { 
+  const form = document.querySelector('.form');
+
+  const addStudent = (e) => {
     e.preventDefault();
     const nameInput = document.querySelector('#name')
 
-    const name = nameInput;
-     
-        
-        
-
-    if (!name.value) {
+    if (name === "") {
       alert("Merlin's Beard! You must enter a name!")
       return;
-    }
-    
+    };
 
     const newStudent = {
       id: students.length + 1,
-      name: name.value,
+      name: document.querySelector('#name').value,
       house: hogwartsHouses[randoHouse].houseName
    }
-    
+   
     cardsOnDom(students);
 
     students.push(newStudent);
     cardsOnDom(students);
     form.reset();
-    modal.hide();
-  };
-  form.addEventListener('submit', (e) => {
-    e.preventDefault(); });
+  }
+const card = document.querySelector('.card');
+// switch (randoHouse.house) {
+//   case 'gryffindor':
+//     card.style.backgroundImage = 'url("https://i.pinimg.com/474x/c5/29/c9/c529c9dbe59782640aa7d0006c90ebeb.jpg")';
+//     break;
+//   case 'hufflepuff':
+//     card.style.backgroundColor = 'url("https://i.pinimg.com/474x/4e/93/9e/4e939e601d8847248e06a7f4f416214b.jpg")';
+//     break;
+//   case 'ravenclaw':
+//     card.style.backgroundColor = 'url("https://i.pinimg.com/474x/0c/db/24/0cdb246ed2f5cd6684c2105e40e6b42a.jpg")';
+//     break;
+//   case 'slytherin':
+//     card.style.backgroundColor = 'url("https://i.pinimg.com/474x/7e/73/8b/7e738b77dc63f51579a4318caa7cd358.jpg")';
+//     break;
+//   default:
+//     card.style.backgroundColor = 'url("https://i.pinimg.com/474x/48/6c/c0/486cc02eba94124e6c1cb599fa284b3c.jpg")';
+// }
+
     form.addEventListener('submit', addStudent);
 
  
@@ -157,7 +165,12 @@ const students = [
   const hufBtn = document.querySelector('#hufflepuff');
   const ravBtn = document.querySelector('#ravenclaw');
   const slyBtn = document.querySelector('#slytherin');
-
+  const form = document.querySelector('.form');
+  const modal = new bootstrap.Modal(document.getElementById('myModal')) {
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    
+    const name = document.querySelector('#name').value;
 
    gryBtn.addEventListener('click', () => {
      const gryStud = filter(students, 'gryffindor');
@@ -223,7 +236,6 @@ const students = [
     for (const deathEater of array) {
       domString += `<container id="jerks"> <div class="card" style="width: 18rem;">
       <div class="card-body" id="deathEaterCard">
-      <h3 id='wanted'>Wanted:</h3>
         <h5 class="card-title">${deathEater.name}</h5>
         <h6>Death Eater</h6>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAzF3RS9qLyDUNiR2Atof4fnWeY0X_8r-Qiw&usqp=CAU">
