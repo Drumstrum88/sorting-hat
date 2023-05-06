@@ -17,6 +17,11 @@
 
 ## - I have deployed this project at: https://timely-phoenix-01bfac.netlify.app/
 
+## Screen Shots
+<img width="721" alt="Screenshot 2023-05-06 at 8 37 11 AM" src="https://user-images.githubusercontent.com/120412248/236627885-5e4fce04-2dd8-4fd4-97e6-1654108229d3.png">
+<img width="721" alt="Screenshot 2023-05-06 at 8 36 59 AM" src="https://user-images.githubusercontent.com/120412248/236627890-15160024-2a55-46ef-a97c-7e6016f7cc4f.png">
+<img width="721" alt="Screenshot 2023-05-06 at 8 36 40 AM" src="https://user-images.githubusercontent.com/120412248/236627899-971de98f-b3ac-455f-8b59-2af13476f9b1.png">
+
 ## Contributors --
 - Jared Anderson https://github.com.drumstrum88
 ## Goals
