@@ -1,6 +1,24 @@
 # Sorting Hat
-I have deployed this project at: https://timely-phoenix-01bfac.netlify.app/
 
+## This is a HOWARTS SORTING HAT that randomly sorts a new student into a house or can expel students who then become Death Eaters.
+
+
+## About the User -- 
+-The ideal user for this application is an educator 
+-They have people in a classroom or group setting and would like to sort them into random groups. Having a love for Harry Potter helps :)
+-The Student cards can be sorted by house.
+
+
+## Features --
+-When "Lets Begin" button is clicked a modal with a form should pop up that has an input to add a new student.
+-When "Sort" is clicked the new student is randomly placed into a house and their card is fixed onto the DOM.
+-Students only in specific houses can be shown when the button for each house is clicked.
+-There is a seperate container for expelled students called Death Eaters. When a student is expelled their card is given a Death Eater mask.
+
+## - I have deployed this project at: https://timely-phoenix-01bfac.netlify.app/
+
+## Contributors --
+- Jared Anderson https://github.com.drumstrum88
 ## Goals
 The goal of this project is to test your knowledge and to have a FUN time stretching yourself on your FIRST independent application that will become a part of your portfolio.
 
