@@ -15,7 +15,11 @@
 -Students only in specific houses can be shown when the button for each house is clicked.
 -There is a seperate container for expelled students called Death Eaters. When a student is expelled their card is given a Death Eater mask.
 
-## - I have deployed this project at: https://timely-phoenix-01bfac.netlify.app/
+## -
+-I have deployed this project at: https://timely-phoenix-01bfac.netlify.app/
+-A brief walkthrough is here https://www.loom.com/share/e1ff1dfd1383436eb3b01d29db58b00a
+
+
 
 ## Screen Shots
 <img width="721" alt="Screenshot 2023-05-06 at 8 37 11 AM" src="https://user-images.githubusercontent.com/120412248/236627885-5e4fce04-2dd8-4fd4-97e6-1654108229d3.png">
